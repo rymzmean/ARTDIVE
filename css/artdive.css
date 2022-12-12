@@ -1,4 +1,91 @@
-.main-img {
+#main-header {
   background-image: url(../img/main-background.svg);
+  background-size: cover;
   width: 100%;
+  height: 900px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+}
+
+.header-logo {
+  display: flex;
+  align-items: center;
+}
+
+.link {
+  font-family: "Urban Heroes";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 46px;
+  line-height: 53px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.header-menu {
+  font-family: "Noto Sans KR";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 41px;
+  color: #ffffff;
+  text-decoration: none;
+  margin: 10px;
+  padding: 10px;
+}
+
+.menu-app-button {
+  font-family: "Noto Sans KR";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 38px;
+  color: #ffffff;
+  text-decoration: none;
+  background: #3f0071;
+  border-radius: 10px;
+  width: 194px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.header-text > h1 {
+  font-family: "Noto Sans KR";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 81px;
+  color: #ffffff;
+}
+
+.header-text > h2 {
+  font-family: "Noto Sans KR";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 66px;
+  line-height: 96px;
+  color: #ffffff;
+}
+
+.text-app-button {
+  font-family: "Noto Sans KR";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 46px;
+  color: #ffffff;
+  text-decoration: none;
+  background: #3f0071;
+  border-radius: 10px;
+  width: 503px;
+  height: 97px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
