@@ -59,6 +59,7 @@
   max-width: 1800px;
   padding: 0 32px;
   margin: 0 auto;
+  padding-top: 100px;
 }
 
 .header-text {
@@ -206,7 +207,8 @@
 }
 
 .section-third-text {
-  padding: 265px;
+  padding-top: 265px;
+  padding-bottom: 265px;
   font-family: "Noto Sans KR";
   font-style: normal;
   font-weight: 700;
@@ -378,4 +380,134 @@
 .sns-icon > img {
   width: 45px;
   height: 45px;
+}
+
+.mobile-app-down {
+  display: none;
+}
+
+/* 태블릿 */
+@media screen and (max-width: 860px) {
+  .menu-app-button {
+    display: none;
+  }
+
+  .header-text-container {
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  #section-first {
+    height: 2452px;
+  }
+
+  .section-first-explain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .section-first-text {
+    padding-top: 200px;
+    padding-bottom: 200px;
+  }
+
+  .section-first-set {
+    padding-bottom: 150px;
+  }
+
+  .section-second-text {
+  }
+
+  .section-second-set > img {
+    width: 100px;
+    height: 100px;
+  }
+
+  .section-second-set > p {
+    font-size: 24px;
+  }
+
+  .section-second-explain {
+    gap: 50px;
+  }
+
+  .arrow > img {
+    width: 13px;
+  }
+
+  #section-third {
+    height: 1392px;
+  }
+
+  .section-third-text {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    font-size: 38px;
+  }
+
+  .section-third-img > img {
+    width: 650px;
+  }
+
+  .section-fourth-set {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .section-fourth-img-one {
+    order: 2;
+  }
+
+  .section-fourth-img-three {
+    order: 2;
+  }
+
+  .section-fourth-explain {
+    padding: 0px;
+  }
+
+  .section-fifth-text {
+    font-size: 36px;
+  }
+
+  .footer {
+    height: 1200px;
+  }
+
+  .footer-all {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 50px;
+  }
+
+  .mobile-app-down {
+    width: 655px;
+    height: 129px;
+    background: #3f0071;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 101;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+  }
+
+  .mobile-app-down-link {
+    font-family: "Noto Sans KR";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 38px;
+    color: #ffffff;
+    text-decoration: none;
+  }
 }
