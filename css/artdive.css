@@ -167,7 +167,8 @@
 }
 
 .section-second-container {
-  padding: 100px;
+  padding-bottom: 200px;
+  padding-top: 100px;
 }
 .section-second-explain {
   gap: 100px;
@@ -183,8 +184,7 @@
 }
 
 .section-second-set > img {
-  width: 200px;
-  height: 200px;
+  width: 100%;
 }
 
 .section-second-set > p {
@@ -201,7 +201,6 @@
 
 #section-second {
   width: 100%;
-  height: 1000px;
 }
 
 #section-third {
@@ -394,7 +393,7 @@
 }
 
 /* 태블릿 */
-@media screen and (max-width: 860px) {
+@media screen and (max-width: 1397px) {
   .menu-app-button {
     display: none;
   }
@@ -528,16 +527,76 @@
 }
 
 /* 모바일 */
-@media screen and (max-width: 375px) {
-  .link {
-    font-size: 24px;
-  }
-
+@media screen and (max-width: 833px) {
   .hamburger-menu {
     display: block;
   }
 
   .header-menu {
     display: none;
+  }
+
+  .header-text > h1 {
+    font-size: 46px;
+  }
+
+  .header-text > h2 {
+    font-size: 56px;
+  }
+
+  .section-first-set {
+    margin-right: 0px;
+  }
+
+  .section-second-text > p {
+    font-size: 32px;
+    line-height: 46px;
+  }
+
+  .section-second-explain {
+    flex-direction: column;
+  }
+
+  .arrow {
+    transform: rotate(90deg);
+  }
+
+  #section-third {
+    height: 1104px;
+  }
+
+  .section-third-text {
+    font-size: 22px;
+    line-height: 32px;
+  }
+
+  .section-third-img > img {
+    width: 500px;
+  }
+
+  .section-fourth-text > h3 {
+    font-size: 26px;
+    line-height: 38px;
+  }
+
+  .section-fourth-text > p {
+    font-size: 18px;
+    line-height: 26px;
+  }
+
+  .section-fourth-img-one > img {
+    width: 100%;
+  }
+
+  .section-fourth-img-two > img {
+    width: 100%;
+  }
+
+  .section-fourth-img-three > img {
+    width: 100%;
+  }
+
+  .section-fourth-img-four > img {
+    width: 100%;
   }
 }
